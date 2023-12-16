@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Ship Site - to make your beautiful island</title>
+    <link rel="shortcut icon" href="../assolutionswebpage/src/image/aslogo2.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./responsive-style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- card sheel -->
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/carousel.pn.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    
+</head>
+<body>
+    <script src="function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <div class="header navbar navbar-expand-lg">
+    <div class="head container-xxl">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <img id="logo" href="#home" class="navbar-brand" src="./lgo-KRYaZfpxt-transformed.png" width="5%"/>
+        <h6>AS Traveller</h6>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+     <li class="nav-item"> <a href="#home" class="link"> Home </a> </li>
+    <li class="nav-item">   <a href="#book" class="link"> Book </a></li>
+    <li class="nav-item">    <a href="#package" class="link"> Package </a></li>
+    <li class="nav-item">    <a href="#bestplace" class="link"> Best Place's </a></li>
+    <li class="nav-item">    <a href="#contact" class="link"> Contact US </a> </li>
+    </ul>
+    </div>
+    </div>
+    <h2>Best Vacation Destination <br> Your Holiday Dreams</h2>
+   <a href="#book"> <button type="button" class="explorebtn">Explore</button></a>
+    <div class="search-container">
+        <form action="/search">
+            <input type="text" placeholder="Search your Destination......." name="query">
+            <button type="submit"> <span><i class="fa-solid fa-magnifying-glass"></i></span> Search</button>
+        </form>
+    </div>
+    </div>
+    
+                                                <!-- end of header -->
+    
+
+                                                    <!-- BOOK -->
+
+
+    <br> <br> <br>
+
+    <div class="book" id="book">
+        <h2>Book <mark>Your Place</mark>   </h2>
+        <img src="https://images.news18.com/ibnlive/uploads/2022/03/eiffel-tower.jpg" alt="Aaifil Tawor" width="398vw" height="566vw">
+        <div class="form"> <br> <br>
+         <a href="/book">   <form action="/submit_form" method="post"> </a>
+                <h4>Book Your Place Now</h4>
+                <br> <br> <br>
+                <label for="fname">First Name:</label> 
+                <input type="text" id="fname" name="fname">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname"> <br> <br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address"> <br> <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone"> <br> <br>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                </select> <br> <br>
+                <label for="passport">Passport Number:</label>
+                <input type="text" id="passport" name="passport">  <br> <br>
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination"> <br> <br>
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin"> <br> <br>
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout"> <br> <br> <br>
+                <input type="submit" value="submit">
+                </form>
+        </div>
+    </div>
+
+
+                                            <!-- Pakcage -->
+
+
+<section class="portfolio" id="portfolio2">
+<div class="portfolio-container portfolio-container2">
+<div class="portfolio-box portfolio-box2">
+<img src="https://gumlet.assettype.com/outlooktraveller%2Fimport%2Fpublic%2Fuploads%2F2018%2F06%2Fshimla3_TI.jpg" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+<div class="portfolio-layer portfolio-layer2" id="package">
+<h4>Shimla</h4>
+<p>n 1864 Shimla was declared as the summer capital of India. After Independence, Shimla became the capital of Punjab and was later named the capital of Himachal Pradesh. In 1903 a rail line was constructed between Kalka and Shimla. Shimla has been blessed with all the natural bounties, one can think of.
+    Shimla is the Capital Town of Himachal Pradesh. It was formerly the summer capital during the British Rule. The town of Shimla is built over several hills and connecting ridges. The important hills are Jakhu(8050 ft), Prospect Hill (7140 ft), Observatory Hill ( 7050 ft), Elysium Hill (7400 ft), and Summer Hill (6900 ft). There is a great controversy over the origin of the name Shimla. The name Shimla was derived from ‘Shyamalaya’ meaning blue house said to be the name of house built of blue slate by a faqir on Jakhu. According to one version Shimla takes it name from ‘Shamla’ meaning a blue female another name for Goddess Kali. The place was on the Jakhu Hillside, there was a temple of Goddess Kali. During the British period the image of the Goddess was shifted to a new place ,now famous Kali Bari Temple. Shimla remained unnoticed during the Gurkha War. It was only in 1819 A.D. that the then Assistant Political Agent of hill states Lt. Ross set up first British residence, a mere wood cottage. His successor Lt. Charles Patt Kennedy’ errected the first pucca house in 1822 named after Lt. Kennedy as ‘Kennedy House’.
+
+The construction of Hindustan Tibet road was started in 1850-51 commencing from Kalka and first lap was upto Shimla. The Road upto Shimla came to be used for wheeled traffic by 1860. A 560 feet long tunnel was constructed beyond Sanjauli.
+</p>
+<a href="/about"><i class="bx bx-link-external"></i></a>
+</div>
+</div>
+<div class="portfolio-box portfolio-box2">
+<img src="https://static.toiimg.com/photo/87726041.cms" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+<div class="portfolio-layer portfolio-layer2">
+<h4>Leh Ladakh</h4>
+<p>Ladakh gains a lot of popularity for being the only cold desert in India apart from bordering the World’s highest saltwater Lake Pangong Lake. Riding up the highest motorable road in the world, Khardung la is a dream come true for many. The Hunder sand dunes, frozen river trek and snow leopards all find their only home in Ladakh.
+
+    Besides that, there are many other things for which Ladakh is famous. Some of them are:
+    
+    1. Trekking on the high mountains is one of the most sought after adventures of people visiting Ladakh on routes like Chadar Trek, Stock Kangri Trek, Markha Valley Trek, Nubra Valley Trek, Padum to Darcha route, etc. The dangerous heights and the risky valleys by the route make it one of the most famous trek routes to accomplish for adventurers.
+    
+    Planning a Trip to Ladakh, Check Out our Best Selling Leh Ladakh Tour Packages
+    </p>
+<a href="/about"><i class="bx bx-link-external"></i></a>
+</div>
+</div>
+<div class="portfolio-box portfolio-box2">
+<img src="https://i.natgeofe.com/k/5b396b5e-59e7-43a6-9448-708125549aa1/new-york-statue-of-liberty.jpg" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+<div class="portfolio-layer portfolio-layer2">
+<h4>New York <br> the City of Haaven</h4>
+<p>New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic Ocean. At its core is Manhattan, a densely populated borough that’s among the world’s major commercial, financial and cultural centers. Its iconic sites include skyscrapers such as the Empire State Building and sprawling Central Park. Broadway theater is staged in neon-lit Times Square. ― Google
+    न्यू यार्क अमेरिका का सबसे बड़ा और प्रमुख नगर है। यह न्यूयार्क राज्य में है, जो अमेरिका के उत्तरपूर्वी भाग में स्थित है। न्यूयार्क नगर १७९० से अमेरिका का सर्वाधिक जनसंख्या वाला नगर है, जबकि न्यूयार्क का महानगरीय क्षेत्र विश्व के सर्वाधिक जनसंख्या वाले महानगरीय</p>
+<a href="/about"><i class="bx bx-link-external"></i></a>
+</div>
+</div>
+<div class="portfolio-box portfolio-box2">
+<img src="https://static.saltinourhair.com/wp-content/uploads/2018/07/23104015/paris-city-trip-eiffel-tower.jpg" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+<div class="portfolio-layer portfolio-layer2">
+<h4>Paris <br> the city of Dreams</h4>
+<p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré. ― Google
+    पेरिस फ़्रांस का सबसे बड़ा नगर और उसकी राजधानी है। यह 105 वर्ग किलोमीटर में फैला हुआ है, और इसकी प्रशासनिक सीमा के भीतर 2015 में 22,29,621 की आबादी थी। 17वीं शताब्दी में पेरिस, यूरोप में वित्त, वाणिज्य, फैशन, विज्ञान और कला के प्रमुख केंद्रों में से एक बना, और यह आज भी उस स्थिति को बरकरार रखता है। 2</p>
+<a href="/about"><i class="bx bx-link-external"></i></a>
+</div>
+</div>
+<div class="portfolio-box portfolio-box2">
+    <img src="https://lp-cms-production.imgix.net/features/2017/09/dubai-marina-skyline-2c8f1708f2a1.jpg" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+    <div class="portfolio-layer portfolio-layer2">
+    <h4>Dubai <br> the Richest Country of World</h4>
+    <p>Dubai is a city and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks. ― Google
+        Local time: Thursday, 5:06 pm
+        Neighborhoods: Dubai Marina, Jumeirah Beach Residence, MORE
+        Weather: 33°C, Wind E at 21 km/h, 37% Humidity More on weather.com
+        Population: 33.3 lakhs (2019)</p>
+    <a href="/about"><i class="bx bx-link-external"></i></a>
+    </div>
+    </div>
+    <div class="portfolio-box portfolio-box2">
+        <img src="https://i.natgeofe.com/k/109a4e08-5ebc-48a5-99ab-3fbfc1bbd611/Giza_Egypt_KIDS_0123_square.jpg" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+        <div class="portfolio-layer portfolio-layer2">
+        <h4>Egypt <br> the Magical City</h4>
+        <p>Egypt, a country linking northeast Africa with the Middle East, dates to the time of the pharaohs. Millennia-old monuments sit along the fertile Nile River Valley, including Giza's colossal Pyramids and Great Sphinx as well as Luxor's hieroglyph-lined Karnak Temple and Valley of the Kings tombs. The capital, Cairo, is home to Ottoman landmarks like Muhammad Ali Mosque and the Egyptian Museum, a trove of antiquities. ― Google
+            मिस्र, आधिकारिक तौर पर मिस्र अरब गणराज्य, एक देश है जिसका अधिकांश हालांकि उत्तरी अफ्रीका में स्थित है जबकि इसका सिनाई प्रायद्वीप, दक्षिणपश्चिम एशिया में एक स्थल पुल बनाता है। इस प्रकार मिस्र एक अंतरमहाद्वीपीय देश है, तथा अफ्रीका, भूमध्य क्षेत्र, मध्य पूर्व और इस्लामी दुनिया की यह एक प्रमुख शक्ति है। </p>
+        <a href="/about"><i class="bx bx-link-external"></i></a>
+        </div>
+        </div>
+        <div class="portfolio-box portfolio-box2">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAT4AAACfCAMAAABX0UX9AAAAk1BMVEUAAAAAljn////tLjgSEhISmkHz8/Pz+/cAmjn0LzoAmDnwKzjtJzLtLDbsHCn0Jzj95+j5v8FxFhupISjUKTLsEyPzgIUtiznUPTj4Ijg0CgxvFRo4Cw0tCAvvUFf0h4zvRk7sFybvTFOnWThxdDmsVjhsdjk4iDklBwk6FhcQJSTrqq3sABfyc3nstLLXOTgljTnTP6nVAAADoUlEQVR4nO2ciXrSQBRGU6/aJdC4tArutdZd6/s/nUkpAiHLzNyZRHLPeYJwvh5/SCZmzzNQcHrxdexLOGRE5NnY13DAlPpOCTgYqfxdvBr7Mg4VWUHAYdzrI+AwZO3v4u3Yl3KIyD/mBOzPRh8BByDb/lhgX2QXAvajpo+A/ZC6PwL2oa6PgL1o0EfA7jToI2B3mvSVvB77ug6EFn0E7EaLPgJ2o00fATvRoY+A++nQR8D9dOkj4F569BFwNz36yoDfjH2J/zN9+gi4Ewd9BNyOgz4eI7Xjok8k5yZWM276CLgFR30scDOu+oQFbsJDHwHv46GPBd7HR5/wGKmOpz4C3sVTHzexdvHVJyzwNgH6CHhDgD4WeEOIPmGB1wTqI+AVgfpY4BWh+oSAKxT6CFiljwXW6RMCVuqzHrBSn/WAtfrEdsAR9FkOOIK+MuBv3x+aJIo+yeXH8WOLxNEn86v3DywSSZ/I+bsnY3+WEYimT2bnT8f+MMMTT5/ML+0FHFFfGfAHawFH1SezmbGA4+orA34x9icalMj6rC1wdH0yuzQUcHx9phY4gT5LC5xEn50FTqPPzAIn0mdlgZPps7HA6fSZWOCE+sqAP0494KT6pn8TK62+yS9wYn1TX+Dk+mR2NeGA0+ub9AIPoG/KCzyIvun+Bh5G32QXeCB9Mv/5a+yPmoLB/vqmOR/826eC5VXB9z4V/OpQwW9eFdxxUcH9PhXcbVbBsw4VPGlTwXNeFZwyUMEZFxWcsFLB+T4VnC5VwdlmFZysV8F7HSp4q0gF77Sp4I1KFbzPq4K3yVXE+r8Mfh+bJIq+4vbLI5vE0Le8Pjs7soleXy6fTqza0+srFi9Pxv4Q46HVV1wfmf3TO9LqMx1uhUpfcWs53AqNvqXtcCvC9ZkPtyJYX/lV2Xi4FaH6jC/umjB9eU64dwTps/1VeZsQfcsbwr3HXx+Lu4W3PhZ3G199hd2bU0346WNxa3jpY3Hr+Ohjcfdw15fLZ8Kt46yPxW3CVV9xw+I24KYvL1jcRpz0sbhtuOhbEm4b/frynMVtpVdfsWBx2+nTx+J20q2P37g9dOpjcfvo0ke4vbTrY3EdaNXH4rrQpq/g5pQLzfpYXEca9RGuK036WFxn9vURrgd7+viq7ENdH0cevdjVxwEMT3b0sbi+bOtjcb3Z6GNxA8g24bK4/qz1sbhBZCyuhjt9HMAIpdLHkcdgMhZXQ1Ys/hBuMBmLq+EvhMMsCJZiTNUAAAAASUVORK5CYII=" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+            <div class="portfolio-layer portfolio-layer2">
+            <h4>Palastine <br> the most power country in the world</h4>
+            <p>Palestine, officially the State of Palestine, is a state located in the Southern Levant region of West Asia. Wikipedia
+                फ़िलिस्तीन आंशिक रूप से मान्यता प्राप्त राष्ट्र है। फिलिस्तीन लिबरेशन संगठन ने १५ नवम्बर १९८८ को अल्जीरिया के नेशनल असेम्बली की परिषद में फिलिस्तीनी राज्य की स्वतन्त्रता की घोषणा की थी। यह अरब राज्यों के लीग का सदस्य है और कुछ राष्ट्रो द्वारा मान्यता प्राप्त है। विकिपीडिया
+                हिन्दी में खोजें : फ़िलिस्तीन</p>
+            <a href="/about"><i class="bx bx-link-external"></i></a>
+            </div>
+            </div>
+            <div class="portfolio-box portfolio-box2">
+                <img src="data:image/jpeg;base64,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" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+                <div class="portfolio-layer portfolio-layer2">
+                <h4>Sri Lanka <br> the most mysteries country</h4>
+                <p>Sri Lanka, historically known as Ceylon and officially the Democratic Socialist Republic of Sri Lanka, is an island country in South Asia. It lies in the Indian Ocean, southwest of the Bay of Bengal, separated from the Indian peninsula by the Gulf of Mannar and the Palk Strait. Wikipedia
+                    श्रीलंका दक्षिण एशिया में हिन्द महासागर के उत्तरी भाग में स्थित एक द्वीपीय देश है। भारत के दक्षिण में स्थित इस देश की दूरी भारत से मात्र ३१ किलोमीटर है।लंका के आगे सम्मानसूचक शब्द "श्री" जोड़कर श्रीलंका कर दिया गया। श्रीलंका का सबसे बड़ा नगर कोलम्बो समुद्री परिवहन की दृष्टि से एक महत्वपूर्ण बन्दरगाह है। विकिपीडिया</p>
+                <a href="/about"><i class="bx bx-link-external"></i></a>
+                </div>
+                </div>
+                <div class="portfolio-box portfolio-box2">
+                    <img src="data:image/jpeg;base64,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" style="width: 25rem; height: 23rem; border-radius:1rem";/>
+                    <div class="portfolio-layer portfolio-layer2">
+                    <h4>Delhi <br> the most Backchodi Place in India</h4>
+                    <p>Delhi, India’s capital territory, is a massive metropolitan area in the country’s north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era Red Fort, a symbol of India, and the sprawling Jama Masjid mosque, whose courtyard accommodates 25,000 people. Nearby is Chandni Chowk, a vibrant bazaar filled with food carts, sweets shops and spice stalls. ― Google
+                        दिल्ली, आधिकारिक तौर पर राष्ट्रीय राजधानी क्षेत्र दिल्ली भारत की राजधानी और एक केंद्र-शासित प्रदेश है। इसमें नई दिल्ली सम्मिलित है जो भारत की राजधानी है। दिल्ली राजधानी होने के नाते केंद्र सरकार की तीनों इकाइयों - कार्यपालिका, संसद और न्यायपालिका के मुख्यालय नई दिल्ली और दिल्ली में स्थापित हैं। १४८३ ― Google… </p>
+                    <a href="/about"><i class="bx bx-link-external"></i></a>
+                    </div>
+                    </div>
+                                                            
+</div>
+</section>
+       
+
+                                        <!-- Card Sheel -->
+                                        
+<div class="container-fluid" style="margin:150px auto" id="bestplace">
+<div class="row flex-column-reverse flex-lg-row align-items-center mh-100vh">
+<div class="col-12 col-lg-4 d-flex mb-5">
+    <div class="title mb-5 ml-5">
+        <h1 class="text-capitalize ">A Multiple Destination wating for you</h1>
+        <p class="author">Amir Ali: <a>ali270247</a></p>
+    </div>
+</div>
+<div class="col-12 col-lg-8 d-flex">
+
+    <!-- carousel -->
+    <div class="carousel carousel-1 ml-5 mt-5">
+        <div class="carousel_container">
+            <ul>
+                <!--  -->
+            </ul>
+        </div>
+        <div class="carousel_container">
+            <ul>
+                <!--  -->
+            </ul>
+        </div>
+        <!-- controller -->
+        <div class="control prev"><span>&#8249;</span></div>
+        <div class="control next"><span>&#8250;</span></div>
+    </div>
+
+</div>
+<div class="col-12 mt-5 d-flex">
+    <!-- carousel -->
+    <div class="carousel carousel-2 ml-5">
+        <div class="carousel_container">
+            <ul>
+                <!--  -->
+            </ul>
+        </div>
+        <div class="carousel_container">
+            <ul>
+                <!--  -->
+            </ul>
+        </div>
+        <div class="carousel_container">
+            <ul>
+                <!--  -->
+            </ul>
+        </div>
+        <!-- controller -->
+        <div class="control prev"><span>&#8249;</span></div>
+        <div class="control next"><span>&#8250;</span></div>
+    </div>
+</div>
+</div>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"
+integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./assets/js/carousel.pn.js"></script>
+<script src="./assets/js/app.js"></script>
+
+
+
+
+                                <!-- last one -->
+<div class="lastone">
+<h6>PRODUCT OFFERING</h6>
+
+<p>Flights, International Flights, Charter Flights, Hotels, International Hotels, Homestays and Villas, Activities, Holidays In India, International Holidays, Book Hotels From UAE, myBiz for Corporate Travel, Book Online Cabs, Book Bus Tickets, Book Train Tickets, Cheap Tickets to India, Book Flights From US, Book Flights From UAE, Trip Planner, Gift Cards, Trip Money, Trip Ideas, Travel Blog, PNR Status, MakeMyTrip Advertising Solutions, One Way Cab
+    <br> <br>
+<h6>MAKEMYTRIP</h6>
+
+<p>About Us, Investor Relations, Careers, MMT Foundation, CSR Policy, myPartner - Travel Agent Portal, Foreign Exchange, List your hotel, Partners- Redbus, Partners- Goibibo, Partners- BookMyForex, Advertise with Us</p>
+<br> 
+<h6>ABOUT THE SITE</h6>
+ 
+<p>Customer Support, Payment Security, Privacy Policy, Cookie Policy, User Agreement, Terms of Service, More Offices, Make A Payment, Work From Home</p>
+<br> 
+<h6>IMPORTANT LINKS</h6>
+ 
+<p>International Airlines, Mumbai Singapore Flights, Delhi London Flights, Mumbai Abu Dhabi Flights, London Delhi Flights, Mumbai Frankfurt Flights, Mumbai Kuala Lumpur Flights, Pune Bangkok Flights, Kolkata Bangkok Flights, Jaipur Dubai Flights, Ahmedabad Dubai Flights, Kuala Lumpur Bangalore Flights, Bangkok Koh Samui Flights</p>
+<br> 
+<h6>QUICK LINKS</h6>
+ 
+<p>Qatar Airways, Air Arabia, Malaysia Airlines, Malindo Air, Emirates Airline, Srilankan Airlines, Oman Air, FlyDubai, Singapore Airlines, KLM Airlines, Tiger Airways, Saudi Arabian Airlines, Etihad Airways, Philippine Airlines, Gulf Air, Mumbai Dubai Flights, Delhi Singapore Flights</p>
+</div>
+
+
+
+                                            <!-- F&Q -->
+
+
+<section id="faq">
+    <div class="faq wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="text-center pb-4">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Is Pet ka Rasta Bread really baked fresh each day?</h4>
+            <p>Far far away, behind the word mountains, far from the countries volkano and contpairies, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Do you bake breads containing animal fats or product?</h4>
+            <p>Far far away, behind the word mountains, far from the countries volkano and contpairies, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>Can I order your Products online?</h4>
+            <p>Far far away, behind the word mountains, far from the countries volkano and contpairies, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+          <div class="col-sm-6 mb-4">
+            <h4><span>~</span>When are you Opening a shop near me?</h4>
+            <p>Far far away, behind the word mountains, far from the countries volkano and contpairies, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language.
+            </p>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<!-- Contact us page -->
+
+
+<div class="container-fluid">
+    <article id="cont">
+<h1 class="text-left mb-5" id="contact">Contact Us</h1>
+</article>
+<div class="row"> 
+<div class="col-md-6">
+<div class="contact-info"> 
+<h3> <span><i class="fa-solid fa-building-flag"></i></span> Headquarters</h3> 
+<p><span><i class="fa-solid fa-location-dot fa-bounce"></i></span> 123 Main Street</p>
+<p> &nbsp;  &nbsp; New York, NY 12345</p>
+<p> <span><i class="fa-solid fa-phone fa-shake"></i></span> Phone: (123) 456-7890</p>
+<p> <span><i class="fa-solid fa-envelope fa-shake"></i></span> Email: info@travelagency.com</p>
+</div> <div class="contact-info"> 
+<h3> <span><i class="fa-solid fa-circle-info"></i></span> Customer Support</h3> 
+<p> <span><i class="fa-solid fa-phone-volume fa-shake"></i></span> Phone: (987) 654-3210</p> 
+<p> <span><i class="fa-solid fa-envelope-circle-check fa-shake"></i></span> Email: support@travelagency.com</p>
+</div> </div> <div class="col-md-2"> 
+<form action="/submit_contact_form" method="post">
+<div class="form-group"> <label for="name">Name</label>
+<input type="text" name="name" id="name" placeholder="Harry Smith">
+</div>
+<div class="form-group"> <label for="email">Email address</label>
+<input type="email" name="email" id="email" placeholder="Duka@gmail.com">
+</div>
+<div class="form-group"> <label for="message">Message</label>
+<textarea name="message" id="message" rows="4" cols="34" placeholder="I have Doubt for you .............."></textarea>
+</div>
+<button type="submit" class="btn btn-warning">Submit</button>
+</form>
+</div>
+</div>
+</div>
+
+
+
+
+                                    <!-- last -->
+
+
+
+<div class="marq">
+
+    <marquee height="220px" scrollamount="3" direction="right" onMouseOver="this.stop()" onMouseOut="this.start()">
+             <img src="https://img.veenaworld.com/wp-content/uploads/2023/09/Famous-Places-in-the-World-Checking-off-the-Ultimate-Bucket-List.jpg" width="260rem" height="180rem">
+             <img src="https://www.holidify.com/images/bgImages/SINGAPORE.jpg" width="260rem" height="180rem">
+             <img src="https://assets-news.housing.com/news/wp-content/uploads/2022/06/28101529/15-worlds-best-places-to-visit-25.jpg" width="260rem" height="180rem">
+             <img src="https://i.pinimg.com/736x/b1/c3/0d/b1c30d99574a8508a2b04d398665e7fc.jpg" width="260rem" height="180rem">
+             <img src="https://www.planetware.com/wpimages/2020/06/best-cheap-places-to-travel-may-santorini-greece.jpg" width="260rem" height="180rem">
+             <img src="https://www.worldfamousthings.com/wp-content/uploads/2017/03/Leaning-Tower-of-Pisa-Italy.jpg" width="260rem" height="180rem">
+             <img src="https://www.planetware.com/wpimages/2019/09/top-places-to-visit-in-the-world-rome-italy.jpg" width="260rem" height="180rem">
+             <img src="https://blog.thomascook.in/wp-content/uploads/2017/01/fairypools.jpg" width="260rem" height="180rem">
+             <img src="https://i.insider.com/5d38ad7236e03c01a7108a67?width=750&format=jpeg&auto=webp" width="260rem" height="180rem">
+             <img src="https://imageio.forbes.com/specials-images/dam/imageserve/594409341/960x0.jpg?height=533&width=711&fit=bounds" width="260rem" height="180rem">
+             </marquee>
+
+</div>
+
+
+
+
+
+                                <!-- last one -->
+<div class="lastone">
+<h5>    Destination Cities</h5>
+<h6> Asia </h6>
+<p>Bandung Hotels
+Bali Hotels
+Bangkok Hotels
+Boracay Island Hotels
+Busan Hotels
+Cebu Hotels
+Chiang Mai Hotels
+Da Nang Hotels
+Fukuoka Hotels
+Hanoi Hotels
+Hat Yai Hotels
+Ho Chi Minh City Hotels
+Hoi An Hotels
+Hong Kong Hotels
+Hua Hin Hotels
+Hualien Hotels
+Ipoh Hotels
+Jakarta Hotels
+Jeju Island Hotels
+Johor Bahru Hotels
+Kaohsiung Hotels
+Kota Kinabalu Hotels
+Krabi Hotels
+Kuala Lumpur Hotels
+Kuantan Hotels
+Kyoto Hotels
+Macau Hotels
+Malacca Hotels
+Manila Hotels
+Nagoya Hotels
+Nha Trang Hotels
+Okinawa Hotels
+Osaka Hotels
+Pattaya Hotels
+Penang Hotels
+Phuket Hotels
+Sapporo Hotels
+Seoul Hotels
+Shanghai Hotels
+Singapore Hotels
+Surabaya Hotels
+Taichung Hotels
+Tainan Hotels
+Taipei Hotels
+Tokyo Hotels
+Yilan Hotels
+Yogyakarta Hotels</p>
+<h6>Europe</h6>
+<p>London Hotels
+Paris Hotels</p>
+<h6>Middle East</h6>
+<p>Dubai Hotels </p>
+<h5>Countries & Territories</h5>
+<h6>Africa</h6>
+<p>Morocco Hotels
+South Africa Hotels</p>
+<h6>Americas</h6>
+<p>Argentina Hotels
+Brazil Hotels
+Canada Hotels
+Mexico Hotels
+United States Hotels
+Venezuela Hotels</p>
+<h6>Asia</h6>
+<p>Cambodia Hotels
+China Hotels
+India Hotels
+Indonesia Hotels
+Japan Hotels
+Laos Hotels
+Malaysia Hotels
+Myanmar Hotels
+Nepal Hotels
+Philippines Hotels
+South Korea Hotels
+Sri Lanka Hotels
+Taiwan Hotels
+Thailand Hotels
+Vietnam Hotels</p>
+<h6>Europe</h6>
+<p>Austria Hotels
+Czech Republic Hotels
+Denmark Hotels
+Finland Hotels
+    France Hotels
+    Germany Hotels
+    Greece Hotels
+    Hungary Hotels
+    Ireland Hotels
+    Italy Hotels
+    Netherlands Hotels
+    Russia Hotels
+    Spain Hotels
+    Sweden Hotels
+    Switzerland Hotels
+    United Kingdom Hotels</p>
+<h6>Middle East</h6>
+ <p>  Bahrain Hotels
+    Egypt Hotels
+    Israel Hotels
+    United Arab Emirates Hotels</p>
+<h6>Oceania</h6>
+ <p>Australia Hotels
+    New Zealand Hotels</p>
+    <h5>Destination Guides</h5>
+   <p> Destination Guides Home</p>
+   <h6>Asia</h6>
+    <p>Bali Guide
+    Bangkok Guide
+    Hong Kong Guide
+    Jakarta Guide
+    Jeju Island Guide
+    Kuala Lumpur Guide
+    Kyoto Guide
+    Kyushu Guide
+    Malacca Guide
+    Manila Guide
+    Nara Guide
+    Osaka Guide
+    Phuket Guide
+    Sapporo Guide
+    Seoul Guide
+    Singapore Guide
+    Taichung Guide
+    Taipei Guide
+    Tokyo Guide
+    Korea Tourism organization</p>
+    <h6>Europex</h6>
+    <p>Paris Guide</p>
+   <h6> Middle East</h6>
+<p>Dubai Guide
+    Jeddah Guide
+    Saudi Arabia Guide</p>
+ <h6>Oceania</h6>
+<p> Brisbane Guide
+    Melbourne Guide
+    Sydney Guide</p>
+    <h5>As Homes</h5>
+    <h6>Asia Apartments</h6>
+    <p>Bangkok Apartments
+    Kuala Lumpur Apartments
+    Manila Apartments
+    Osaka Apartments
+    Pattaya Apartments
+    Tokyo Apartments</p>
+    <h6>Asia Bungalows</h6>
+    <p>Bali Bungalows
+    Koh Kood Bungalows
+    Koh Lanta Bungalows
+    Koh Phangan Bungalows
+    Koh Samet Bungalows
+    Phu Quoc Island Bungalows</p>
+    <h6>Asia Villas</h6>
+    <p>Bali Villas
+    Phuket Villas
+    Pattaya Villas
+    Hua Hin / Cha-am Villas
+    Seoul Villas
+    Port Dickson Villas </p>
+   <h6> Asia Vacation Rentals</h6>
+    <p>Jeju Island Vacation Rentals
+    Okinawa Main island Vacation Rentals
+    Tokyo Vacation Rentals
+    Bangkok Vacation Rentals
+    Kuala Lumpur Vacation Rentals
+    Malacca Vacation Rentals</p>
+    
+</div>
+
+
+
+                                <!-- footoer -->
+
+  <section class="footer" id="contact">
+    <a href="#"><i class="fab fa-instagram"></i></a>
+<a href="#"><i class="fab fa-facebook"></i></a>
+<a href="#"><i class="fab fa-twitter"></i></a>
+<a href="#"><i class="fab fa-youtube"></i></a>
+<a href="#"><i class="fab fa-linkedin"></i></a>
+
+   <h6> © 2023 MAKEMYTRIP PVT. LTD.
+<br> <br>
+Country India USA UAE
+</h6>
+  </section>
+
+</body>
+</html>

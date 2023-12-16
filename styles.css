@@ -1,0 +1,44 @@
+body {
+  min-height: 100vh;
+  color: black;
+  font-family: -webkit-pictograph,'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+
+.author {
+  letter-spacing: 1px;
+  font-size: small;
+  color: black;
+}
+
+.mh-100vh {
+  min-height: 100vh;
+}
+
+.carousel .content img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border-radius: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.card-title {
+  overflow: hidden;
+}
+
+.card-title span {
+  position: relative;
+}
+
+.carousel-3 .carousel_container, .carousel-3 .carousel_container > ul > li {
+  width: 700px;
+  height: 400px;
+}
+/*# sourceMappingURL=style.css.map */

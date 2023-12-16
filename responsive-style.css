@@ -1,0 +1,163 @@
+@media (max-width:1024px) {
+
+}
+
+@media (max-width:991px) {
+ 
+}
+
+@media (max-width:767px) {
+    .header 
+    {
+        height: 35rem;
+        background-size: cover;
+    }
+    .header .head
+{
+    margin-bottom: 130%;
+}
+
+.header .head img 
+{
+    margin: -18vw 80vw 1vw -10vw;
+}
+.header .head button
+{
+    margin-left: 11.8rem;
+}
+
+.header .head h6
+{
+    font-size: 2.8vw;
+    margin: -12vw 80vw 1vw -15vw;
+}
+    .header h2
+    {
+        font-size: 5vw;
+        margin-left: 3rem;
+    }
+
+
+    .header .explorebtn
+    {
+        left: 7rem;
+        font-size: 25px;
+    }
+
+    .search-container {
+        width: 60%;
+        margin-bottom: -32rem;
+        margin-right: 7rem;
+        margin-left: -30rem;
+    }
+
+    
+.book
+{
+    margin-top: 3.5rem;
+    margin-right: 2rem;
+}
+
+.book h2
+{
+    margin-right: 2rem;
+}
+.book img
+{
+    margin: 2.5rem 0 0 3%;
+    position: absolute;
+    height: 8rem;
+    width: 6rem;
+}
+.book .form form {
+    width: 15rem;
+    padding: 1.5rem 1.5rem;
+    margin: 2rem 7% 0 0;
+    }
+    .book .form form h4
+{
+    font-size: 1.2rem;
+}
+.book .form input[type="text"],
+.book .form input[type="date"],
+.book .form input[type="email"],
+.book .form input[type="tel"], 
+.book .form select {
+    height: 20px;
+    }
+    
+    .book .form input[type="submit"] {
+        height: 20px;
+        font-size: 0.486em;
+        }
+    
+        .portfolio2 h2
+        {margin-bottom: 1rem;}
+        .portfolio-container2
+        {display: grid; 
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        gap: 2.2rem;}
+        .portfolio-container2 .portfolio-box2
+        {position: relative;
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem var(orange);
+        overflow: hidden; 
+        display: flex;}
+        .portfolio-box2 img
+        {border: 2px solid;
+        width: 100%;
+        transition: .5s ease;}
+        .portfolio-box2:hover img 
+        {transform: scale(1.1);}
+        .portfolio-box2 .portfolio-layer2
+        {position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%; 
+        height: 100%; 
+        background: rgb(250, 250, 250); 
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        text-align: center;
+        padding: 0 2rem;
+        transform: translateY(90%);
+        transition: .5s ease;}
+        .portfolio-box2:hover .portfolio-layer2
+        {transform: translateY(0);}
+        .portfolio-layer2 h4
+        {font-size: 1.8rem; 
+        color: black; 
+        margin-bottom: 5.8rem; 
+        font-weight: 800;}
+        .portfolio-layer2 p
+        {color: black;
+        font-size: 1rem;
+        line-height: 1.6;
+        letter-spacing: 0.07em;
+        opacity: 0.9;
+        max-width: 20rem;
+        margin-top: -1rem;
+        overflow: hidden;}
+        .portfolio-layer2 a
+        {display: inline-flex;
+        justify-content: center; 
+        align-items: center; 
+        width: 5rem;
+        height: 5rem;
+        background-color: white;
+        border: 2px solid;
+        border-radius: 100%;}
+        .portfolio-layer2 a i
+        {font-size: 2rem;
+        color: pink;}
+        
+
+
+}
+    
+@media (max-width:330px) {
+
+}

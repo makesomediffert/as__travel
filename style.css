@@ -1,0 +1,439 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    content: "";
+}
+
+
+
+                                    /* header */
+
+
+
+.header
+{
+    background-image: url(https://www.tourmyindia.com/blog/wp-content/uploads/2021/03/Best-Places-to-Visit-in-Kerala.jpg);
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+}
+.header .head
+{
+    height: 15%;
+    margin-bottom: 40%;
+}
+.header .head img 
+{
+    margin: 2vw 1vw 1vw 1vw;
+}
+.header .head h6
+{
+    font-weight: 900;
+    font-size: 2vw;
+    color: gold;
+    text-shadow: 2px 2px #090909;
+}
+.header .head a
+{
+    text-decoration: none; 
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem;
+}
+.header .head .link
+{
+    font-weight: 700;
+    /* display: flex; */
+    padding: 24px 20px 4px 80px;
+}
+.header h2
+{
+    font-size: 5vw;
+    position: absolute;
+    bottom: 16rem;
+    right: 18rem;
+    color: white;
+    font-weight: 600;
+    text-shadow: 4px 4px black;
+    text-align: justify;
+}
+.header button
+{
+    border: 2px solid yellow;
+}
+.header .explorebtn
+{
+    height: 62px;
+    width: 156px;
+    background: none;
+    position: absolute;
+    bottom: 10rem;
+    right: 38rem;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header button:hover
+{
+    background-color: yellow;
+    text-shadow: 1px 1px black;
+}
+                                         /* search bar style */
+ .search-container {
+    width: 38%;
+    display: inline-block;
+    position: relative;
+    margin-bottom: -40rem;
+    margin-right: 28rem;
+    margin-left: -50rem;
+}
+
+.search-container input[type=text] {
+    width: 100%;
+    padding: 10px;
+    padding-right: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-container button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border: 2px solid yellow;
+    background: white;
+    padding: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 5.5rem;
+}
+
+.search-container button:hover {
+    background: yellow;
+}
+
+                                            /* BOOK */
+
+.book
+{
+    height: 65rem;
+}
+
+.book h2
+{
+    text-align: center;
+    color: yellow;
+    text-shadow: 2px 2px black;
+    font-size: 4vw;  
+    font-weight: 600;  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.book h2 mark
+{
+    color: lawngreen;
+    background-color: white;
+}
+.book img
+{
+    border-radius: 10%;
+    box-shadow: 6px 6px 6px 1px black;
+    margin: 5rem 0 0 7%;
+    position: absolute;
+}
+.book .form form {
+    width: 45rem;
+    padding: 3rem 3rem;
+    margin: 2rem 5% 0 0;
+    float: right;
+    background: #f9f9f9;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border: 2px solid;
+    transition: all 0.3s ease-in-out;
+    }
+.book .form form h4
+{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    color: yellow;
+    text-shadow: 4px 4px black;
+}
+
+.book .form form label
+{
+    font-size: 1.4vw;
+}
+.book .form input[type="text"],
+.book .form input[type="date"],
+.book .form input[type="email"],
+.book .form input[type="tel"], 
+.book .form select {
+    width: calc(34% - 10px);
+    height: 35px;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-size: 1.3vw;
+    }
+    .book .form input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background-color: yellow;
+    color: black;
+    letter-spacing: 1px;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    }
+    .book .form input[type="submit"]:hover
+    {
+        border: 2px solid;
+    }
+
+                                         /* portfolio */
+
+
+    #portfolio2
+{min-height: 100vh;
+padding: 5rem 8%};
+.portfolio2
+{background: white; 
+color: var(white);}
+.portfolio2 h2
+{margin-bottom: 1rem;}
+.portfolio-container2
+{display: grid; 
+grid-template-columns: repeat(3, 1fr);
+align-items: center;
+gap: 2.2rem;}
+.portfolio-container2 .portfolio-box2
+{position: relative;
+border-radius: 2rem;
+box-shadow: 0 0 1rem var(orange);
+overflow: hidden; 
+display: flex;}
+.portfolio-box2 img
+{border: 2px solid;
+width: 100%;
+transition: .5s ease;}
+.portfolio-box2:hover img 
+{transform: scale(1.1);}
+.portfolio-box2 .portfolio-layer2
+{position: absolute;
+bottom: 0;
+left: 0;
+width: 100%; 
+height: 100%; 
+background: rgb(250, 250, 250); 
+display: flex;
+justify-content: center;
+align-items: center; 
+flex-direction: column;
+text-align: center;
+padding: 0 2rem;
+transform: translateY(90%);
+transition: .5s ease;}
+.portfolio-box2:hover .portfolio-layer2
+{transform: translateY(0);}
+.portfolio-layer2 h4
+{font-size: 1.8rem; 
+color: black; 
+margin-bottom: 5.8rem; 
+font-weight: 800;}
+.portfolio-layer2 p
+{color: black;
+font-size: 1rem;
+line-height: 1.6;
+letter-spacing: 0.07em;
+opacity: 0.9;
+max-width: 20rem;
+margin-top: -1rem;
+overflow: hidden;}
+.portfolio-layer2 a
+{display: inline-flex;
+justify-content: center; 
+align-items: center; 
+width: 5rem;
+height: 5rem;
+background-color: white;
+border: 2px solid;
+border-radius: 100%;}
+.portfolio-layer2 a i
+{font-size: 2rem;
+color: pink;}
+
+
+
+
+
+
+
+                                        /* Last One */
+
+.lastone
+{
+    background-color: #f8f1f1;
+    padding: 4rem;
+
+}
+.lastone h6
+{
+    font-weight: 700;
+    font-size: 0.8vw;
+}
+.lastone p
+{
+    font-size: 0.7vw;
+}
+
+
+
+
+                                            /* FAQ */
+
+
+
+
+.faq h4 span{background-color: #f8f1f1; font-size: 1.875rem; margin-right: 0.3125rem;}
+.faq{background-color: #f8f1f1;}
+
+
+
+
+
+
+
+                                /* contact us page */
+
+
+
+                                .container-fluid
+                                {
+                                    background-color: #f8f1f1;
+                                    padding: 20px;
+                                }
+                                .container-fluid #cont
+                                {
+                                    height: 10rem;
+                                    border: none;
+                                    box-shadow: 0px 0px 10px rgba(0,0,0,.1);
+                                    margin: 0 auto;
+                                    display: flex;
+                                    justify-content: space-around;
+                                    align-items: center;
+                                    flex-wrap: wrap;
+                                    color: black;
+                                    margin-bottom: 4rem;
+                                }
+                                .container-fluid #cont h1
+                                {
+                                    font-size: 4.5vw;
+                                    text-align: left;
+                                }
+                                                                 
+                                .form-group {
+                                    margin-bottom: 20px;
+                                }
+                                
+                                .contact-info {
+                                    margin-bottom: 50px;
+                                    padding-left: 60px;
+                                }
+                                
+                                .contact-info p {
+                                    margin-bottom: 10px;
+                                }
+                                
+
+.container-fluid label
+{
+    font-size: 1.4vw;
+    text-align: center;
+}
+.container-fluid input[type="text"],
+.container-fluid input[type="email"]{
+    width: calc(184% - 10px);
+    height: 35px;
+    padding: 0 5px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    font-size: 1.3vw;
+    }
+.container-fluid #message
+{
+    text-align: center;
+    padding-top: 3.8rem;
+}
+
+                                
+                                
+
+
+
+                                    /* last wala */
+
+
+
+
+.marq marquee
+{
+    background-color: #f8f1f1;
+    border-top: 2px solid;
+}
+
+.marq marquee img
+{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: 2px solid;
+}
+
+                                    
+
+                                            /* footer */
+
+
+
+.footer
+{
+    background-color: #090909;
+    color: white;
+    height: 10.8vw;
+}
+.footer a
+{
+    font-size: 2vw;
+    letter-spacing: 2.5vw;
+    color: white;
+}
+.footer a i
+{
+    padding-top: 1.2rem;
+    padding-left: 1.6rem;
+}
+.footer h6
+{
+    text-align: right;
+    font-weight: 600;
+    padding: 30px;
+}

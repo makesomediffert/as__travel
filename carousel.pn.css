@@ -1,0 +1,110 @@
+.carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.carousel_container {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.carousel_container:nth-child(2) {
+  margin-top: 30px;
+  width: 400px;
+  height: 250px;
+}
+
+.carousel_container:nth-child(2) > ul > li {
+  width: 400px;
+  height: 250px;
+}
+
+.carousel_container:nth-child(3) {
+  margin-top: 50px;
+  width: 350px;
+  height: 200px;
+}
+
+.carousel_container:nth-child(3) > ul > li {
+  width: 350px;
+  height: 200px;
+}
+
+.carousel_container > ul {
+  list-style: none;
+  position: relative;
+  height: 100%;
+  padding-left: 0;
+}
+
+.carousel_container > ul > li {
+  width: 500px;
+  height: 300px;
+  display: inline-block;
+}
+
+.carousel .control {
+  position: absolute;
+  left: 50%;
+  bottom: -40px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.carousel .control.prev, .carousel .control.next {
+  width: 35px;
+  height: 35px;
+  font-size: 28px;
+  background-color: black;
+  color: white;
+  opacity: .9;
+  border-radius: 50%;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all ease .2s;
+  transition: all ease .2s;
+}
+
+.carousel .control.prev span, .carousel .control.next span {
+  height: 10px;
+  line-height: 4px;
+}
+
+.carousel .control.prev:hover, .carousel .control.prev:active, .carousel .control.next:hover, .carousel .control.next:active {
+  background-color: #bebebe70;
+  opacity: 1;
+}
+
+.carousel .control.prev:active, .carousel .control.next:active {
+  background-color: #bebebe90;
+}
+
+.carousel .control.prev {
+  margin-right: 50px;
+}
+
+.carousel .control.next {
+  margin-left: 50px;
+}
+/*# sourceMappingURL=carousel.pn.css.map */
