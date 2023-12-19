@@ -39,7 +39,6 @@
     text-decoration: none; 
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 1rem;
 }
 .header .head .link
 {
@@ -52,11 +51,9 @@
     font-size: 5vw;
     position: absolute;
     bottom: 16rem;
-    right: 18rem;
     color: white;
     font-weight: 600;
     text-shadow: 4px 4px black;
-    text-align: justify;
 }
 .header button
 {
